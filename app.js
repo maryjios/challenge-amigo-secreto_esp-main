@@ -36,7 +36,7 @@ function sortearAmigo() {
     document.getElementById("listaAmigos").setAttribute("hidden", true);
 
     // obtenemos el amigo que se encuentra en la posición ganadora
-    let amigoGanador = listAmigosAgregado[listAmigosAgregado.length - 1];
+    let amigoGanador = listAmigosAgregado[numeroElegido];
 
     // Imprimimos en pantalla amigo ganador.
     agregarElementoLista("resultado", "El amigo sorteado a sido: " + amigoGanador);
